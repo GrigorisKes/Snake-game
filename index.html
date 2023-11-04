@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="myStyle.css">
+<script defer src="initBoard.js"></script>
+<script defer src="game.js"></script>
+</head>
+<body onload=initBoard()>
+<div class="table">
+  <table  id="mainTable">
+  </table>
+</div>
+
+<div class="infobox">
+  <h2>Info Box</h2>
+  <div id="turnInfo">
+  </div>
+  <br>
+  <div id="diceInfo">
+  </div>
+  <br>
+  <div id="pythonInfo1">
+  </div>
+  <div id="pythonInfo2">
+  </div>
+  <br><br><br>
+  <div id="winner">
+  </div>
+  <br>
+  <div id="wingif">
+  </div>
+  <div id=name>
+    <label for="pAname">Player1:</label>
+    <input type="text" id="p1name" name="name1" minlength="2" maxlength="30" value="Player1">
+    <br>
+    <label for="pBname">Player2:</label>
+    <input type="text" id="p2name" name="name2" minlength="2" maxlength="30" value="Player2">
+    <button  id="start" onclick="visible()">Start</button>
+  </div>
+</div>
+
+<div id="rollDice">
+  <h2>PRESS THE DICE</h2>
+  <button  id="roll" onclick="play()"><img src="ImagesDice/dice.gif" alt="Dice photo" height="100"></button>
+</div>
+</body>
+</html>

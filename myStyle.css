@@ -1,0 +1,52 @@
+body{
+  background-color: #40e0d0;
+}
+
+
+.table{
+  float: left;
+}
+
+.infobox{
+  background: blue;
+  float: right;
+  padding: 10px;
+  margin-top: 1px;
+  margin-right: 20px;
+  border: 4px solid black;
+  min-height: 533px;
+  width: 20%;
+  background-color:#D4F5F2;
+}
+
+#rollDice{
+  background-color: grey;
+  text-align: center;
+  height: 200px;
+  float: right;
+  margin-right:100px;
+  margin-top: 100px;
+  width: 20%;
+}
+.diceSpin{
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.ex1
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .ex2
+    {
+      position: absolute;
+      top: 60px;
+      left: 80px;
+    }
+
+table,td {padding: 0px; margin: 0px; cellspacing: 0; cellpadding:0;
+ border-collapse:collapse; border-spacing: 0px;  border:none;
+}
+img { display:block;   }
